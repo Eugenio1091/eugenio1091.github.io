@@ -27,17 +27,4 @@ exclude:
   - README.md
   - jekyll-theme-hamilton.gemspec
 
-# Jekyll SEO Tag (Optional)
-# =========================
-twitter:
-  username: eugenio1091.github.io
-  card: summary
-logo: logo.png
-social:
-  name: eugenio1091.github.io
-  links:
-    - https://twitter.com/
-    - https://www.facebook.com/
-    - https://github.com/Eugenio1091
-google_site_verification:
-lang: en
+
