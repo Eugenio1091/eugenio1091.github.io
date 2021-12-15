@@ -1,189 +1,327 @@
-# Hamilton <!-- omit in toc -->
+# title: [Portafolio Digital]
+# description: 
 
-A minimal and beautiful Jekyll theme best for writing and note-taking.
+¡Bienvenidos a mi portafolio digital! En este repositorio podrás encontrar algunos de mis trabajos, recopilacion de informacion y scrips relacionados con seguridad informática, pentesting y vulnerabilidad en sistemas informáticos.
 
-The original purpose of this theme is to be a replacement of the default Jekyll theme -- [Minima](https://github.com/jekyll/minima). Hamilton is an enhancement of Minima but still, keep in minimal.
+---------------------------------------------------------------------------------------------------------------
+Profesional del Área de TI, con más de 10 años de experiencia en Consultoría, Implementación y soporte de Soluciones Integrales Tecnológicas, orientada al Servicio e Integración, Basándose en conocimientos avanzados en manejo de Proyectos, bajos las metodologías de Implementación y mejores Prácticas del Fabricante, Garantizando el eficiente y efectivo cierre del proceso y permitiendo alcanzar los Objetivos de la organización, lo que se traduce en la satisfacción del Cliente, permitiendo así dar continuidad operativa de los sistemas y la ampliación de la relación comercial.
 
-Please check out the [demo](https://ngzhio.github.io/jekyll-theme-hamilton/).
+----------------------------------------------------------------------------------------------------------------
+- 👋 Hi, I’m @Eugenio
+     Responsable de sistemas en Conecta Sistemas de Tecnología Avanzada
+- 👀 I’m interested in ...Sysadmin/DevOps/Cloud Administrator/Cybersecurity
+- 🌱 I’m currently learning ... Javascript,Phytone,Java,Julia,CSS,Html,C++
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...stefanut_eugen@protonmail.com
 
-| Skins | Displays |
-| ----- | -------- |
-| Daylight | ![screenshot](screenshot.png) |
-| Sunrise/Sunset | ![screenshot](screenshot-sunrise.png) |
-| Midnight | ![screenshot](screenshot-midnight.png) |
 
-## Features <!-- omit in toc -->
+-- Sysadmin/DevOps/Cloud Administrator/Cybersecurity --
+---------------------------------------------------------------------------------------------------------
 
-- [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag)
-- [Jekyll Feed](https://github.com/jekyll/jekyll-feed)
-- [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
-- [Google Analytics](https://analytics.google.com/)
-- [MathJax](https://www.mathjax.org/)
-- [Disqus](https://disqus.com/)
-- [Font Awesome](https://fontawesome.com/)
-- TOC
-- Customizable head
-- Configurable page navigation
-- Customizable styles and skins
-- Archive pages implemented in pure Liquid
 
-## Table of Contents <!-- omit in toc -->
+-- Principales actividades y responsabilidades --
+---------------------------------------------------------------------------------------------------------------
 
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [Optional Parameters](#optional-parameters)
-- [Archive Pages](#archive-pages)
-- [MathJax](#mathjax)
-- [TOC](#toc)
-- [Customization](#customization)
-  - [Metadata](#metadata)
-  - [Navigation](#navigation)
-  - [Social Media](#social-media)
-  - [Skins](#skins)
-  - [More Customized Styles](#more-customized-styles)
-- [License](#license)
+-- Responsable de Sistemas --
+---------------------------------------------------------------------------------------------------------
+Conecta Sistemas de Tecnología Avanzada
+01/12/2019 – Actual Madrid España
 
-## Installation
+- Diseñar, planificar, coordinar y administrar tanto los proyectos tecnológicos, como las estratégicas y acciones en materia de Tecnología de la Información y Comunicación (TIC)
 
-You can choose one of the following methods to install Hamilton:
+- Definir la arquitectura informática necesaria para apoyar los procesos de negocio, a fin de lograr un desarrollo tecnológico ordenado, integral y eficiente de acuerdo a las necesidades de la empresa.
 
-- Directly specify the `jekyll-theme-hamilton` gem.
+- Definir y liderar la estrategia de proyectos de mejora de procesos y digitalización (erp's y otros Sistemas de Gestión), que contribuyan a el cumplimiento de la metas y objetivos definidos por la compañía, cumpliendo con los requisitos de calidad, plazos y presupuesto definidos para cada uno de ellos.
 
-    1. Add `gem 'jekyll-theme-hamilton'` into your `Gemfile`.
-    2. Add the below lines into your `_config.yml`.
+- Integración de los nuevos proyectos IT con el resto de los sistemas corporativos.
 
-        ```yml
-        plugins:
-          - jekyll-theme-hamilton
-        ```
+- Dialogar permanentemente con los clientes internos de las unidades de negocio para detectar las necesidades de mejora o de innovación, asesorar y asistir técnicamente a los usuarios de los sistemas implantados.
 
-- If your site is hosted on GitHub Pages, you can use [`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme) to import the master branch of Hamilton.
+- Organizar, supervisar y aplicar las normas y políticas de utilización de los sistemas de la empresa y lograr su aprovechamiento óptimo.
 
-    1. Add `gem 'jekyll-remote-theme'` into your `Gemfile`.
-    2. Add the below lines into your `_config.yml`.
+- Gestión de usuarios e Incidencias, elaboración y mantenimiento de manuales, formación de nuevos usuarios...
 
-        ```yml
-        plugins:
-          - jekyll-remote-theme
+- Coordinar el equipo de IT, tanto interno como con proveedores
 
-        remote_theme: ngzhio/jekyll-theme-hamilton
-        ```
+- Elaborar y gestionar presupuestos.
 
-## Configuration
+- Gestionar con los proveedores de IT y controlar el cumplimiento de los acuerdos de los servicios contratados.
 
-After installation, you can run `jekyll serve` to check out your site, but before that, *make sure* the below **required parameters** are configured in your `_config.yml`.
+- Gestionar proyectos
 
-| Parameters | Types | Specifications |
-|:---------- |:----- |:-------------- |
-| `title`    | string | The site title |
-| `disqus`   | string | The Disqus shortname; Unless you don't want to enable the comments system, you must specify this parameter. It is used in the production environment. |
-| `google_analytics` | string | The Google Analytics tracking ID; It is used in the production environment. |
+- Gestión de un equipo de tecnicos
 
-### Optional Parameters
+- Seleccionar y comprar el hardware y software adecuado
 
-| Parameters | Types | Specifications |
-|:---------- |:----- |:-------------- |
-| `author`   | string | The name of the author of the site; It would be showed in the copyright statement. |
-| `avatar`   | string | The avatar of the author of the site. |
-| `email`    | string | The email of the author of the site. |
-| `location` | string | The current living location of the author of the site. |
-| `skin`     | string | The skin name. See more information on the [Customization](#customization) section. |
-| `lang`     | string | The language of the site; The default value is `en`. |
-| `paginate` | int    | The number of posts on each page. |
-| `date_format` | string | The date format; The default value is `%b %-d, %Y`. |
-| `subscribe` | boolean | Show the subsribe feed button. |
+- Asegurarse de que se cumplan las leyes de licencias de software.
 
-## Archive Pages
+---------------------------------------------------------------------------------------------------------------
 
-Hamilton implements some archive templates in pure Liquid. For example, if you want to create a category archive page, set the below parameters on that page:
+-- Administrador de sistemas de TIC --
+---------------------------------------------------------------------------------------------------------------
+Conecta Sistemas de Tecnología Avanzada
+01/07/2016 – Actual Madrid España
 
+
+-- Gestión de Redes --
+---------------------------------------------------------------------------------------------------------------
 ```yml
----
-layout: archive-taxonomies
-type: categories
----
+
+- Administración de Firewalls (Pfsense, Fortinet, Ubiquiti,OPNsense)
+
+- Instalación de cortafuegos y switches administrables
+
+- Instalación de enrutadores
+
+- Instalación de redes montaje de servidores en rack y parcheo
+
+- Soluciones inalámbricas (Puntos de acceso)
+
+- Balanceo de líneas y dimensionamiento de anchos de banda
 ```
 
-Or a tag archive page:
 
+
+-- Administración de Sistemas --
+---------------------------------------------------------------------------------------------------------------
 ```yml
-layout: archive-taxonomies
-type: tags
+
+- Administración de servidores en entornos híbridos
+
+- Administración de almacenamiento en red
+
+- Administración de motores de bases de datos
+
+- Administración de sitios web
+
+- Administración de correo electrónico
+
+- Administración de seguridad informática
+
+- Administración de acceso remoto
+
+- Administración de sistemas Windows y GNU/Linux
+
+- Administración de sistemas windows en plataformas físicas y virtuales.
+
+- Gestión entorno virtualización y almacenamiento
+
+- Backups, recuperación y contingencias
+
+- Creación de scripts y automatismos
+
+- Gestión de VMWare ESXi/Vcenter
+
+- Gestión de servicios de escritorio remoto de Microsoft
+
+- Gestión de Microsoft Exchange Server
+
+- Gestión de Internet Information Server
+
+- Gestión de servicios FTP
+
+- Mantenimiento y administración de Active Directory
+
+- Gestión de escritorios virtuales
+
+- Homologación aplicaciones y diseño de maquetas de escritorios virtuales
+
+- Gestión de los sistemas de archivo relacionado con la Infraestructura virtual
+
+- Servicio de impresión en servidores
+
+- Reparación de servidores, la ampliación y los distintos tipos de mantenimiento informático de servidores.
+
+- Gestión de Sharepoint/Azure/AWS/VPS
+
+- Gestión correo Office 365,Zimbra,Arsys,Proxmail etc
+
+- Administración de Windows Server 2008,2012,2016,2019,2022
+
+- Sistemas de Virtualización (Hyper-V, VMware, Virtual Box,Proxmox,VMware)
 ```
 
-Or archive by years:
 
+-- Soporte informático a usuarios y clientes --
+---------------------------------------------------------------------------------------------------------------
 ```yml
-layout: archive-years
+
+- Salidas a clientes para resolución de problemas
+
+- Gestión de incidencias y peticiones
+
+- Gestión del conocimiento
+
+- Mantenimiento evolutivo y correctivo de la infraestructura de servidores de plataforma de escritorios virtuales
+
+- Resolución de problemas y soporte
+
+- Optimización y mejora de entornos
+
+- Documentación
+
+- Gestión de inventario e infraestructuras de comunicaciones
+
+- Mantenimiento y supervisión de equipos informáticos
+
+- Instalación y configuración de impresoras
+
+- Realizar las maquetas de los equipos informáticos, configurar equipos
+
+- Conocimientos a nivel de reparación de Impresoras, elementos de hardware.
+
+- Agilidad en la gestión de incidencias y peticiones
+
+- Experiencia en el uso de herramientas de ticketing
+
+- Atender a incidencias y peticiones sobre las infraestructuras locales de los usuarios (comunicaciones, PCs, impresoras, etc.)
+
+- Proporcionar formación, apoyo, asesoramiento a los usuarios y a las empresas.
+
+- Implementación y gestión de procedimientos de seguridad o integridad y copias de seguridad
 ```
 
-## MathJax
+-- DevOps --
+---------------------------------------------------------------------------------------------------------
 
-You can enable MathJax on each post or page, just set `math: true` on that page.
-
-## TOC
-
-If you want to show the Table of Contents of a post or page on the left sidebar, just set `toc: true` on that page.
-
-## Customization
-
-### Metadata
-
-You can create a file `_includes/custom-head.html` in your repository, and add any metadata into that page, e.g. favicons.
-
-### Navigation
-
-You can create a file `_data/navigation.yml` to configure links to some pages. For example,
-
+-- Programador Web, Desarrollador Webs --
+---------------------------------------------------------------------------------------------------------------
 ```yml
-- title: About
-  url: /about/
-- title: Categories
-  url: /categories/
-- title: Tags
-  url: /tags/
+- Javascript
+- Python
+- Wordprees
+- Joomla
+- Apache
+- Nginx
+- NGINX Reverse Proxy
+- Traefik 
 ```
 
-The navigation bar also supports dropdown submenus:
-
+-- Docker, Kubernetes  --
+---------------------------------------------------------------------------------------------------------
 ```yml
-- title: About
-  url: /about/
-- title: Categories
-  url: /categories/
-- title: Tags
-  url: /tags/
-- title: More
-  sublinks:
-    - title: FAQ
-      url: /faq/
-    - title: Docs
-      url: /docs/
+- Portainer
+- Docker Compose
+- Cockpit Project
 ```
 
-### Social Media
-
-You can create a file `_data/social.yml` to configure links to your social media. For example,
-
+-- ANDROID DEVELOPER --
+---------------------------------------------------------------------------------------------------------
 ```yml
-- title: Twitter
-  url: https://twitter.com/ngzhio
-  icon: fab fa-twitter
-- title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
-  icon: fab fa-github
+- Android Studio
 ```
 
-### Skins
+-- Ciberseguridad --
+---------------------------------------------------------------------------------------------------------
+```yml
+- KaliLinux
+- Parrot
+- Black Arch Linux
+```
 
-You can select a skin by setting `skin` in `_config.yml`. The built-in skins include `daylight`, `midnight`, `sunrise`, and `sunset`. If you don't specify any skin, Hamilton would dynamically select one in these built-in skins according to different hours in a day.
+-- Educación y formación --
+---------------------------------------------------------------------------------------------------------------
 
-You can also customize a new skin, for example, a skin called `solarized`. You need to copy [`_sass/hamilton/skins/daylight.scss`](_sass/hamilton/skins/daylight.scss) into your repository and then rename it to `solarized.scss`, and adjust some colors in that file. Finally, specify `skin: solarized` in `_config.yml`.
+- ESO, TITULO DE GRADUADO EN EDUCACIÓN SECUNDARIA I.E.S SIERRA DE GUADARRAMA
+2004 – 2009 Madrid España
 
-### More Customized Styles
+- TECNICO EN SISTEMAS MICROINFORMATICA Y REDES , Informática FP JOSE LUIS SAMPEDRO
+2009 – 2012 Madrid España
 
-If you want to create more CSS styles in your site, creating a file `_sass/hamilton/custom-styles.scss`, and putting your code in there, Hamilton would automatically refer to them.
+- Mediador de Seguros Categoría C
+IES SAN FERNANDO
+2011 – 2011 Madrid España
 
-## License
+- REASEGURO Y COASEGURO
+I.E.S. San Fernando, Fuencarral-El Pardo
+2012 – 2012 Madrid España
 
-The theme is available as open source under the terms of the [MIT License](LICENSE.txt).
+- CREDITO Y CAUCION
+I.E.S. San Fernando, Fuencarral-El Pardo
+2012 – 2012 Madrid España
+
+- Mediador de Seguros Categoría B
+I.E.S. San Fernando, Fuencarral-El Pardo
+2012 – 2012 Madrid España
+
+- CERT. PROFESIONAL MONTAJE Y REPARACIÓN DE SISTEMAS MICROINFORMATICOS
+Centro de Formación en Tecnologías de la Información y las Comunicaciones
+2015 – 2016 Madrid--
+
+- Experto Ciberseguridad
+NALLAM
+2019 – 2019 Madrid España
+
+
+-- Licencias y certificaciones --
+---------------------------------------------------------------------------------------------------------------
+
+- Kubernetes para Desarrolladores
+Udemy
+2020 – 2020 Madrid España
+
+
+- Curso completo de Linux Debian
+Udemy
+2020 – 2020
+
+
+- pfSense - Fundamentos y Administración
+Udemy
+2020 – 2020 Madrid España
+
+
+- Curso completo VMware vSphere 6.7
+JMG Virtual Consulting
+2020 – 2020 Madrid España
+
+
+- Curso completo Pfsense
+Udemy
+2020 – 2020 Madrid España
+
+- Java Masterclass
+Global Mentoring
+15/06/2015 – 04/10/2015
+
+- AWS Solutions Architect Associate Certification Crash Course
+Udemy
+2021 – 2021
+
+- Base de Datos MySQL con Linux
+Udemy
+2021 – 2021
+
+- Sistema de Login en Visual Basic y SQL Server en Capas
+Udemy
+2021 – 2021
+
+- AZ-900 Microsoft Azure Fundamentals
+Udemy
+2021 – 2021
+
+- Gestión de la Calidad ISO 9001:2015
+Integraconsultoria
+2021 – 2021
+
+- Seguridad Básica para Desktops y Servidores Linux
+Udemy
+2021 – 2021
+
+- Ultimate AWS Certified Developer Associate 2021 Masterclass
+Udemy
+
+- Curso Básico de Iniciación SAP
+udemy
+
+- Windows Server 2019
+Udemy
+2021 – 2021
+
+- ISO/IEC 27001 Implementando Seguridad de la Información Autoridad
+Udemy
+2021 – 2021
+
+
+---------------------------------------------------------------------------------------------------------------
+
